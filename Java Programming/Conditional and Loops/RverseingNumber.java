@@ -15,5 +15,7 @@ public class RverseingNumber {
             ans = ans *10 +rem;
         }
         System.out.println(ans);
+
+        in.close();
     }
 }
