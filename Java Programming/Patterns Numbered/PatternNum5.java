@@ -40,7 +40,7 @@ public class PatternNum5 {
                 System.out.println();
             }
         } else{
-            System.out.println("Enter an ODD number !!! Try Again");
+            System.out.println("Enter only ODD number !!! Try Again");
         }
 
         in.close();
