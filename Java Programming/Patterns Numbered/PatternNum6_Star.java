@@ -25,7 +25,7 @@ public class PatternNum6_Star{
 
             st++;
             sp -=2;
-            System.err.println();
+            System.out.println();
         }
         in.close();
     }
