@@ -19,7 +19,7 @@ public class DecimalToAnyBase {
         int rv = 0;
         int p = 1;
 
-        while(n > 0){
+        while(n > 0){ 
             int dig = n % b;
             n = n / b;
 
