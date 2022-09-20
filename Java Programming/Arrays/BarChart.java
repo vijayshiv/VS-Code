@@ -15,13 +15,15 @@ public class BarChart {
         System.out.println();
         int max = arr[0];
         for(int i = 0; i < arr.length; i++){
-            max = arr[i];
+            if(arr[i] > max){
+                max = arr[i];
+            }
         }
 
         for(int f = max; f >= 1; f--){
             for(int i = 0; i < arr.length; i++){
                 if(arr[i] >= f){
-                    System.out.print("*\t");
+                    System.out.print("[] \t");
                 } else{
                     System.out.print("\t");
                 }
