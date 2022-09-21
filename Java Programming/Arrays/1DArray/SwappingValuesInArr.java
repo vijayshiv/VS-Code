@@ -26,7 +26,7 @@ public class SwappingValuesInArr {
         System.out.println("Before swapping values");
 
         for(int i = 0; i < arr.length; i++){
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
 
         swap(arr, 0, 4);
@@ -34,7 +34,7 @@ public class SwappingValuesInArr {
         System.out.println("After swapping");
 
         for(int i = 0; i < arr.length; i++){
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
 }
