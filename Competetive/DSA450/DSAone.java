@@ -1,32 +1,23 @@
 import java.util.*;
 
 public class DSAone{
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int t = in.nextInt();
-        for(int j = 1; j <= t; j++){
-            int n = in.nextInt();
-            int[] arr = new int[n];
-            for(int i = 0; i < arr.length; i++){
-                arr[i] = in.nextInt();
-            } 
-            for(int i = 0; i < arr.length; i++){
-                System.out.print(arr[i] + " ");
-            }
-            
+        int n = in.nextInt();
+        ArrayList<Integer> num = new ArrayList<Integer>();
+
+        for(int i = 0; i < n; i++){
+            num.add(in.nextInt());
         }
+
+        // reverse list made
+
+        ArrayList<Integer> revArrayList = new ArrayList<Integer>();
+        for (int i = num.size() - 1; i >= 0; i--) {
+            revArrayList.add(num.get(i));
+        }
+
+        System.out.println(revArrayList);
         in.close();
-        // int[] rev = arr;
-        // int i = 0;
-        // int j = a.length - 1;
-
-        // while(i < j){
-        //     int temp = arr[i];
-        //     arr[i] = arr[j];
-        //     arr[j] = temp;
-
-        //     i++;
-        //     j--;
-        // }
     }
 }

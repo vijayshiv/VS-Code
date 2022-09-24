@@ -15,13 +15,13 @@ public class SearchSortedTwoDArray{
         }
         System.out.println("The matrix is here ->");
         display(arr);
-
+        
 
         System.out.print("Enter the value you want to find -> ");
         int x = in.nextInt();
         int i = 0;
         int j = arr[0].length - 1;
-
+        in.close();
         while(i < arr.length && j >= 0){
             if(x == arr[i][j]){
                 System.out.println( "The cooridates are -> (" + (i+1) +", " + (j+1) + ")");
