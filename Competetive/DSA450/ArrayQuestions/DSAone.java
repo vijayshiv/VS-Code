@@ -6,19 +6,19 @@ public class DSAone{
         int t = in.nextInt();
         while(t-- > 0){
             int n = in.nextInt();
-            ArrayList<String> num = new ArrayList<String>();
+            ArrayList<Integer> num = new ArrayList<Integer>();
     
             for(int i = 0; i < n; i++){
-                num.add(in.next());
+                num.add(in.nextInt());
             }
     
             // reverse list made
     
-            ArrayList<String> revArrayList = new ArrayList<String>();
+            ArrayList<Integer> revArrayList = new ArrayList<Integer>();
             for (int i = num.size() - 1; i >= 0; i--) {
                 revArrayList.add(num.get(i));
             }
-            for(String s : revArrayList){
+            for(Integer s : revArrayList){
                 System.out.print(s + " ");
             }
             System.out.println();
