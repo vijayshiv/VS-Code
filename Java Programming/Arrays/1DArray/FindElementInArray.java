@@ -21,7 +21,7 @@ public class FindElementInArray {
                 break;
             }
         }
-        System.out.print("The place of the value "+data+" is "+idx);
+        System.out.print("The place of the value "+ data +" is "+ idx);
 
         in.close();
     }
