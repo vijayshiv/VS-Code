@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SearchSortedTwoDArray{
+public class BinarySearch2DArray{
     public static void main(String[] args)throws Exception {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the length of square matrix -> ");
@@ -19,6 +19,8 @@ public class SearchSortedTwoDArray{
 
         System.out.print("Enter the value you want to find -> ");
         int x = in.nextInt();
+
+        // Searching starts here
         int i = 0;
         int j = arr[0].length - 1;
         in.close();
