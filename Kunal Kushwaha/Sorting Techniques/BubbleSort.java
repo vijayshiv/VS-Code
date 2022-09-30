@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Buublesort {
+public class BubbleSort {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the length of the array -> ");
@@ -10,13 +10,13 @@ public class Buublesort {
         for(int i = 0; i < arr.length; i++){
             arr[i] = in.nextInt();
         }
-        Sort(arr);
+        SortBubble(arr);
         System.out.println("The sorted array is -> " + Arrays.toString(arr));
 
         in.close();
 
     }
-    public static void Sort(int[] arr){
+    public static void SortBubble(int[] arr){
         boolean swapped;
         for(int i = 0; i < arr.length; i++){
             //for each step, max item will come at he last 
