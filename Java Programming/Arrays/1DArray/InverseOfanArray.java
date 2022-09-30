@@ -14,7 +14,7 @@ public class InverseOfanArray {
         }
 
         in.close();
-    }
+     }
 
     public static int[] inverse(int[] arr){
         int[] inv = new int[arr.length];
