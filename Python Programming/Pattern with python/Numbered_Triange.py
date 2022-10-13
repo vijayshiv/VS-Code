@@ -1,6 +1,3 @@
-from tkinter.tix import InputOnly
-
-
 n = int(input("Entet the length of triangle : "))
 val = 1
 

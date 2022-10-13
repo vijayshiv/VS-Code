@@ -1,6 +1,3 @@
-from xml.dom.minidom import Element
-
-
 n = int(input("Enter the length iof arrow : "))
 
 sp = n // 2
