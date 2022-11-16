@@ -1,6 +1,3 @@
-from ctypes.wintypes import tagRECT
-
-
 n = int(input("Enter the length of the list : "))
 arr = []
 for i in range(0,n):
