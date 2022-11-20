@@ -44,7 +44,6 @@ public class getPathJump{
                 paths.add("d" + movesize + dpath);
             }
         }
-        
         return paths;
     }
 }
