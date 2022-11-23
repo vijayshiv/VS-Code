@@ -16,10 +16,12 @@ public class getKeypadCombination {
             bres.add("");
             return bres;
         }
-        char ch = str.charAt(0);
-        String ros = str.substring(1);
+        // 573
 
-        ArrayList<String> rres = getKPC(ros);
+        char ch = str.charAt(0);    // 5
+        String ros = str.substring(1);  // 73
+
+        ArrayList<String> rres = getKPC(ros);   // six words of getKPC
         ArrayList<String> mres = new ArrayList<>();
 
         String codeforch = codes[ch - '0'];

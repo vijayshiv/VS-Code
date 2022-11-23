@@ -10,6 +10,10 @@ public class getSubSequenceReccursion {
         in.close();
 
     }
+    // faith    bc -> [-- , -c, b-, bc]
+    // expectation  abc -> [---, --c, -b-, -bc, a--, a-c, ab-, abc]
+    // F->E     'a' + gss(bc) 
+      
     public static ArrayList<String> gss(String str){
         if(str.length() == 0){
             ArrayList<String> bres = new ArrayList<>();
