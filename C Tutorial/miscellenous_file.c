@@ -60,7 +60,6 @@ void main()
 }
 */
 
-
 /*
 void main()
 {
@@ -74,7 +73,8 @@ void main()
 */
 
 /*
-void main(){
+void main()
+{
     int n,k;
     int fun(int);
     printf("Enter the number : ");
@@ -82,7 +82,8 @@ void main(){
     k = fun(n);
     printf("The sum of n terms is : %d", k);
 }
-int fun(int a){
+int fun(int a)
+{
     int s;
     if(a == 1){
         return a;
@@ -110,5 +111,69 @@ void main()
 
     int num = 99;
     printf("%d %o %x %p %u %ld %i", num, num, num, num, num, num, num);
+
+}
+*/
+
+/*
+void main()
+{
+    int num = 0365;
+    printf("%d ", num);
+    printf("%o ", num);
+    printf("%x ", num);
+}
+*/
+
+/*
+void main()
+{
+    int n1,n2,n3;
+    n1 = 30;
+    n2 = 442;
+    n3 = 7896;
+
+    printf("%d %d %d\n", n1,n2,n3);
+    printf("%10d %10d %10d\n", n1,n2,n3);
+    printf("%-10d %-10d %-10d", n1,n2,n3);
+}
+*/
+
+/*
+void main()
+{
+    int i;
+    i = printf("Hello World !");
+    printf("%d\n", i);
+}
+*/
+
+/*
+void main()
+{
+    int a[3][3],i,j;
+    for(i = 0; i <= 2; i++){
+        for(j = 0; j <= 2; j++){
+            scanf("%d",&a[i][j]);
+        }
+    }
+    for(i = 0; i <= 2; i++){
+        for(j = 0; j <= 2; j++){
+            printf("%5d ", &a[i][j]);
+        }
+        printf("\n");
+    }
+}
+*/
+
+/*
+void main()
+{
+    int n = 0;
+    if(n++){
+        printf("C-DAC");
+    } else if(n--){
+        printf("ACTS");
+    }
 }
 */
