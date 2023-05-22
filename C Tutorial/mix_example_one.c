@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
+#include<string.h>
 // #include <windows.h>
 
 /*
@@ -175,5 +176,56 @@ void main()
     } else if(n--){
         printf("ACTS");
     }
+}
+*/
+
+/*
+void main(){
+    char s[20] = "VIJAY SHIV";
+    for(int i = 0; s[i] != '\0'; i++){
+        printf("%c", s[i]);
+    }
+}
+*/
+
+/*
+void main(){
+    char c[20];
+    scanf("%s",&c); // scan is a delimiter means it cannot take multiple words as input
+    puts(c);
+}
+*/
+
+/*
+void main(){
+    char ch[20],s[20];
+    gets(ch);
+    strrev(ch);
+    puts(ch);
+    strlen(ch);
+    puts(ch);
+    strlwr(ch);
+    puts(ch);
+    strupr(ch);
+    puts(ch);
+    strcpy(s,ch);
+    puts(s);
+    strcmp(s,ch);
+    strcat(s,ch);
+    puts(ch);
+}
+*/
+
+/*
+void main(){
+    char ch[3][10];
+    int i;
+
+    printf("Enter three strings : ");
+    for(i = 0; i <= 2; i++)
+        gets(ch[i]);
+
+    for(i = 0; i <= 2; i++)
+        printf("%s\n", ch[i]);
 }
 */
