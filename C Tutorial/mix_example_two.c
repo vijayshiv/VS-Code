@@ -63,3 +63,29 @@ void main(){
 }
 */
 
+/*
+void main(){
+    int x, y, *p , *q;
+    x = 5;
+    y = 10;
+    p = &x;
+    q = p - 1;
+
+    printf("%d\n", x);
+    printf("%d\n", &y);
+    printf("%d\n", p);
+    printf("%d\n", *q);
+}
+*/
+
+void main(){
+    int a[5], i, *p;
+    p = &a[0];
+
+    for(i = 0; i < 5; i++){
+        scanf("%d",(p + i));
+    }
+    for(i = 0; i < 5; i++){
+        printf("%d ",*(p + i));
+    }
+}
