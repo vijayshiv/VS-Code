@@ -1,30 +1,31 @@
 #include <stdio.h>
 
-void swapcbv(int x, int y)
+// void swap(int *, int *);
+// void swap2(int, int);
+
+void swap(int *x, int *y)
 {
-    int temp = x;
-    x = y;
-    y = temp;
-}
-void swapcbr(int *x, int *y)
-{
-    int temp = *x;
+    int t;
+    t = *x;
     *x = *y;
-    *y = temp;
+    *y = t;
+}
+void swap2(int x, int y)
+{
+    int t;
+    t = x;
+    x = y;
+    y = t;
 }
 
-int main()
+void main()
 {
-    int x,y;
-    printf("Enter Two numbers : ");
-    scanf("%d %d", &x,&y);
-    printf("\nCall by Value \n");
-    printf("Values before swap: x = %d, y = %d\n", x, y);
-    swapcbv(x, y);
-    printf("Values after swap: x = %d, y = %d\n", x, y);
+    int a, b;
+    printf("Enter any two number : ");
+    scanf("%d %d", &a, &b);
+    printf("a = %d, b = %d\n", a, b);
 
-    printf("\nCall by Reference \n");
-    printf("Values before swap: x = %d, y = %d\n", x, y);
-    swapcbr(&x, &y);
-    printf("Values after swap: x = %d, y = %d", x, y);
+    swap2(a, b);
+
+    printf("a = %d, b = %d", a, b);
 }
