@@ -78,6 +78,7 @@ void main(){
 }
 */
 
+/*
 void main(){
     int a[5], i, *p;
     p = &a[0];
@@ -89,3 +90,4 @@ void main(){
         printf("%d ",*(p + i));
     }
 }
+*/

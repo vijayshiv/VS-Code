@@ -23,8 +23,10 @@ int length(char *p)
 }
 void main()
 {
-    char ch[20] = "vijayshiv";
-    reverse(ch);
-    printf("%s",ch);
-    printf("\n%d",length("shiva"));
+    char ch[20];
+    char *p;
+    p = &ch[0];
+    scanf("%s", ch);
+    printf("%s",reverse(ch));
+    printf("\n%d",length(ch));
 }
