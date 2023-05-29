@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-#include<string.h>
+#include <string.h>
 
 /*
 void main() {
@@ -21,7 +21,7 @@ void main() {
 
 /*
 void main(){
-    int a,b; 
+    int a,b;
     int *j;
     a = 15;
     j = &a;
@@ -42,7 +42,7 @@ void main(){
 
      printf("%d\n", x);     // x = 5
      printf("%d\n", *p);    // p = &x and *p points the value of x
-     printf("%d\n", **q);    // q = &p and *q points the value of p while **q points the value of x   
+     printf("%d\n", **q);    // q = &p and *q points the value of p while **q points the value of x
 }
 */
 
