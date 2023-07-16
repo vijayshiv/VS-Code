@@ -5,7 +5,7 @@ int main()
 {
     char s[100];
     FILE *fp;
-    fp = fopen("f1.txt", "r");
+    fp = fopen("f1.txt", "w");
     if (fp == NULL)
     {
         printf("File cannot open");
