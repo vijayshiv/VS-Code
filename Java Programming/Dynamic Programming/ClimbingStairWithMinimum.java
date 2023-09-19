@@ -4,10 +4,11 @@ import java.util.Scanner;
 public class ClimbingStairWithMinimum {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter the lenght of array : ");
+        System.out.print("Enter the lenght of array -> ");
         int n = in.nextInt();
         
         int[] arr = new int[n];
+        System.out.print("Enter the elements here -> ");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = in.nextInt();
         }

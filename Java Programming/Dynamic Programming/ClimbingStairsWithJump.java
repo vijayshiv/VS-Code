@@ -20,7 +20,7 @@ public class ClimbingStairsWithJump {
             }
         }
 
-        System.out.println(dp[0]);
+        System.out.println(Arrays.toString(dp));
         in.close();
     }
 }
