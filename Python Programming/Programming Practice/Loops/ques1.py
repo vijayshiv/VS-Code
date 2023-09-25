@@ -1,4 +1,6 @@
 # https://www.w3resource.com/python-exercises/
+# https: // pynative.com/python-functions-exercise-with -solutions/
+
 n = int(input("Enter the number -> "))
 
 # using for loop
